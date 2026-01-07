@@ -5,6 +5,9 @@ on:
       - "main"
       - "master"
 
+permissions:
+  contents: write
+
 concurrency:
   # Cancel in-progress deploys to same branch
   group: ${{ github.ref }}/deploy
@@ -82,6 +85,23 @@ jobs:
           # The cli command below can be used to manage syncing the prod manifest to branches if state_path is set on the DbtProject
           # dagster-cloud ci dagster-dbt project manage-state --file ${{ env.DAGSTER_PROJECT_NAME }}/project.py
         shell: bash
+
+      - name: Generate dbt docs
+        if: steps.prerun.outputs.result == 'pex-deploy'
+        run: |
+          cd project-repo
+          source .venv/bin/activate
+          cd dbt
+          dbt deps
+          dbt docs generate --profiles-dir . --target ${{ env.DBT_TARGET }}
+        shell: bash
+
+      - name: Publish dbt docs to GitHub Pages
+        if: steps.prerun.outputs.result == 'pex-deploy'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: project-repo/dbt/target
 
       - name: Run pytest                                                                              
         if: steps.prerun.outputs.result == 'pex-deploy'                                               
