@@ -25,8 +25,6 @@ build-backend = "setuptools.build_meta"
 module_name = "dagster_jaffleshop.definitions"
 code_location_name = "dagster_jaffleshop"
 
-
-
 [tool.setuptools]
 package-dir = {"" = "src"}
 
