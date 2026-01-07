@@ -15,4 +15,4 @@ def test_definitions_wire_assets_and_resources():
     asset_groups = {a.group_name for a in asset_graph.asset_nodes}
     assert "dagster_jaffleshop" in asset_groups
     asset_key_names = {a.key.path[-1] for a in asset_graph.asset_nodes}
-    assert all(item in asset_key_names for item in ["customers", "orders"])
+    assert set(["customers", "orders"]).issubset(asset_key_names)
