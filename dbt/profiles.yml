@@ -8,7 +8,7 @@ jaffle_shop:
       role: sandbox_admin
       warehouse: sandbox_wh
       database: sandbox_db
-      schema: dev
+      schema: jaffle_shop_dev
       threads: 1
     prod:
       type: snowflake
@@ -18,6 +18,6 @@ jaffle_shop:
       role: sandbox_admin
       warehouse: sandbox_wh
       database: sandbox_db
-      schema: prod
+      schema: jaffle_shop
       threads: 1
   target: dev
