@@ -9,8 +9,10 @@ concurrency:
   cancel-in-progress: true
 env:
   DAGSTER_CLOUD_URL: "http://admiral-pioneer-poc.eu.dagster.plus"
+  DAGSTER_CLOUD_ENV: "eu"
   DAGSTER_CLOUD_ORGANIZATION: "admiral-pioneer-poc"
   DAGSTER_CLOUD_API_TOKEN: ${{ secrets.DAGSTER_CLOUD_API_TOKEN }}
+  SNOWFLAKE_PRIVATE_KEY: ${{ secrets.SNOWFLAKE_PRIVATE_KEY }}
   ENABLE_FAST_DEPLOYS: 'true'
   PYTHON_VERSION: '3.10'
   DAGSTER_CLOUD_FILE: 'dagster_cloud.yaml'
