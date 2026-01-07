@@ -1,5 +1,5 @@
 with source as (
-    select * from sandbox_db.prod.raw_customers
+    select * from sandbox_db.jaffle_shop.raw_customers
 
 ),
 

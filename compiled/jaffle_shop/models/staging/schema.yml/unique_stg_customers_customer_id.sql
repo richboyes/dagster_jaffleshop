@@ -6,7 +6,7 @@ select
     customer_id as unique_field,
     count(*) as n_records
 
-from sandbox_db.prod.stg_customers
+from sandbox_db.jaffle_shop.stg_customers
 where customer_id is not null
 group by customer_id
 having count(*) > 1

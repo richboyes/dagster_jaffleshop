@@ -8,7 +8,7 @@ with all_values as (
         payment_method as value_field,
         count(*) as n_records
 
-    from sandbox_db.prod.stg_payments
+    from sandbox_db.jaffle_shop.stg_payments
     group by payment_method
 
 )

@@ -8,7 +8,7 @@ with all_values as (
         status as value_field,
         count(*) as n_records
 
-    from sandbox_db.prod.orders
+    from sandbox_db.jaffle_shop.orders
     group by status
 
 )

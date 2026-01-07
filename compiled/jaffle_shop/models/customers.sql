@@ -1,18 +1,18 @@
 with customers as (
 
-    select * from sandbox_db.prod.stg_customers
+    select * from sandbox_db.jaffle_shop.stg_customers
 
 ),
 
 orders as (
 
-    select * from sandbox_db.prod.stg_orders
+    select * from sandbox_db.jaffle_shop.stg_orders
 
 ),
 
 payments as (
 
-    select * from sandbox_db.prod.stg_payments
+    select * from sandbox_db.jaffle_shop.stg_payments
 
 ),
 

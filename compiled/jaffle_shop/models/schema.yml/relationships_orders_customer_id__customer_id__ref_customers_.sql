@@ -4,13 +4,13 @@
 
 with child as (
     select customer_id as from_field
-    from sandbox_db.prod.orders
+    from sandbox_db.jaffle_shop.orders
     where customer_id is not null
 ),
 
 parent as (
     select customer_id as to_field
-    from sandbox_db.prod.customers
+    from sandbox_db.jaffle_shop.customers
 )
 
 select
