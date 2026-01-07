@@ -213,3 +213,4 @@ target/
 dbt_modules/
 **/.DS_Store
 .user.yml
+src/dagster_jaffleshop/dbt-project/
