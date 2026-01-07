@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+rsa_key.*
+logs/
+target/
+dbt_modules/
+**/.DS_Store
+.user.yml
