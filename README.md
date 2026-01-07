@@ -2,8 +2,10 @@
 
 [![Serverless Prod Deployment](https://github.com/richboyes/dagster_jaffleshop/actions/workflows/deploy.yml/badge.svg)](https://github.com/richboyes/dagster_jaffleshop/actions/workflows/deploy.yml)
 
-Basic project to ingest fictional jaffle shop data from DBT and create basic data pipelines using Dagster & DBT.
+Basic project to ingest fictional jaffle shop data from DBT and create basic data pipelines that ingests data to snowflake,
+using Dagster cloud and [DBT](https://www.getdbt.com/).
 
+Currently deployed to https://admiral-pioneer-poc.eu.dagster.plus/
 
 ### Pre-requisites to run locally
 
