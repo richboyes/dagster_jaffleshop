@@ -11,8 +11,6 @@ DBT documents for the project are generated at: https://richboyes.github.io/dags
 
 On our instance of [snowflake ❄️](https://app.snowflake.com/admiralpioneer/toolbox/#/homepage) the data can be seen in the `sandbox_db.jaffle_shop` schema.
 
-This is a test.
-
 ### Pre-requisites to run locally
 
 - Install uv using their [official documentation](https://docs.astral.sh/uv/getting-started/installation/)
