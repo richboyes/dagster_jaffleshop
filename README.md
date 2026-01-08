@@ -7,6 +7,8 @@ using Dagster cloud and [DBT](https://www.getdbt.com/). Information about the da
 
 Currently deployed Dagster Cloud at https://admiral-pioneer-poc.eu.dagster.plus/ using github actions at https://github.com/richboyes/dagster_jaffleshop/actions, also see [deploy.yml](.github/workflows/deploy.yml).
 
+DBT documents for the project are generated at: https://richboyes.github.io/dagster_jaffleshop
+
 ### Pre-requisites to run locally
 
 - Install uv using their [official documentation](https://docs.astral.sh/uv/getting-started/installation/)
