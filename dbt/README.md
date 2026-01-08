@@ -9,6 +9,7 @@
 What this repo _is_:
 - A self-contained playground dbt project, useful for testing out scripts, and communicating some of the core dbt concepts.
 
+
 What this repo _is not_:
 - A tutorial — check out the [Getting Started Tutorial](https://docs.getdbt.com/tutorial/setting-up) for that. Notably, this repo contains some anti-patterns to make it self-contained, namely the use of seeds instead of sources.
 - A demonstration of best practices — check out the [dbt Learn Demo](https://github.com/dbt-labs/dbt-learn-demo) repo instead. We want to keep this project as simple as possible. As such, we chose not to implement:
