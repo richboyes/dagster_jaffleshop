@@ -5,35 +5,35 @@
     "static_analysis_parsed_path_count": 4,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.01540920900001197,
-    "load_macros_elapsed": 0.7767505220000004,
-    "parse_project_elapsed": 0.8957778850000011,
-    "patch_sources_elapsed": 7.835000005229631e-06,
-    "process_manifest_elapsed": 0.03390519799999936,
-    "load_all_elapsed": 1.788068555999999,
+    "read_files_elapsed": 0.01581639899998777,
+    "load_macros_elapsed": 0.8048530669999963,
+    "parse_project_elapsed": 0.9164343359999947,
+    "patch_sources_elapsed": 8.766000007653929e-06,
+    "process_manifest_elapsed": 0.03466087900000048,
+    "load_all_elapsed": 1.8416817720000012,
     "projects": [
         {
             "project_name": "jaffle_shop",
-            "elapsed": 0.8870196230000005,
+            "elapsed": 0.9070621190000026,
             "parsers": [
                 {
                     "parser": "model",
-                    "elapsed": 0.38964215899999033,
+                    "elapsed": 0.3905210469999929,
                     "parsed_path_count": 5
                 },
                 {
                     "parser": "seed",
-                    "elapsed": 0.19571499100000267,
+                    "elapsed": 0.20538860300000295,
                     "parsed_path_count": 3
                 },
                 {
                     "parser": "doc",
-                    "elapsed": 0.0003512779999965687,
+                    "elapsed": 0.00036863000001119417,
                     "parsed_path_count": 2
                 },
                 {
                     "parser": "test",
-                    "elapsed": 0.2970094029999899,
+                    "elapsed": 0.30598381599999414,
                     "parsed_path_count": 2
                 }
             ],
@@ -41,17 +41,17 @@
         },
         {
             "project_name": "dbt_snowflake",
-            "elapsed": 0.003874090999985924,
+            "elapsed": 0.004177685999991354,
             "parsers": [],
             "parsed_path_count": 0
         },
         {
             "project_name": "dbt",
-            "elapsed": 0.004776550000002544,
+            "elapsed": 0.005057013000012489,
             "parsers": [
                 {
                     "parser": "doc",
-                    "elapsed": 0.0001821310000025278,
+                    "elapsed": 0.0002322950000035462,
                     "parsed_path_count": 1
                 }
             ],
