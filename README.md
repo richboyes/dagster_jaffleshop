@@ -5,7 +5,7 @@
 Basic project to ingest fictional jaffle shop data from DBT and create basic data pipelines that ingests data to snowflake,
 using Dagster cloud and [DBT](https://www.getdbt.com/). Information about the data the transformations can be seen in the DBT [README](./dbt/README.md)
 
-Currently deployed to https://admiral-pioneer-poc.eu.dagster.plus/
+Currently deployed Dagster Cloud at https://admiral-pioneer-poc.eu.dagster.plus/ using github actions at https://github.com/richboyes/dagster_jaffleshop/actions, also see [deploy.yml](.github/workflows/deploy.yml).
 
 ### Pre-requisites to run locally
 
@@ -51,7 +51,6 @@ Currently deployed to https://admiral-pioneer-poc.eu.dagster.plus/
 
 ### Dagster Cloud
 
-See github actions under https://github.com/richboyes/dagster_jaffleshop/actions for deployment to Dagster cloud, also see [deploy.yml](.github/workflows/deploy.yml).
 
 
 ### Running DBT Locally
