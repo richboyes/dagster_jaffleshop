@@ -49,10 +49,6 @@ Currently deployed Dagster Cloud at https://admiral-pioneer-poc.eu.dagster.plus/
   pytest tests
   ```
 
-### Dagster Cloud
-
-
-
 ### Running DBT Locally
 
 You may wish to run DBT locally, which will execute the DAG on Snowflake directly:
